@@ -5,7 +5,7 @@ from eq_w import EqwAlgo
 def handler(event, context):
     # Llamar al algo
     try:
-        eq_w_1 = EqwAlgo(algo_tag='oramirez_algo1', n_days=10)
+        eq_w_1 = EqwAlgo(algo_tag='oramirez_algo1', n_days=10) #probando
         eq_w_1.run_day_comp()
     except Exception as e:
         print(f"Error en algo 1 {e}")
